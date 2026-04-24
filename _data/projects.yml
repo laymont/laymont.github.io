@@ -5,28 +5,8 @@
     - PHP
     - Laravel
 
-- title: ZephyraX
-  description: Proyecto frontend moderno con Vue.js
-  url: https://github.com/laymont/ZephyraX
-  tech:
-    - Vue.js
-    - TypeScript
-
-- title: vehiclehub
-  description: Sistema de gestión vehicular
-  url: https://github.com/laymont/vehiclehub
-  tech:
-    - PHP
-    - Laravel
-
-- title: gcloud
-  description: Sistema de gestión de infraestructura en la nube
-  url: https://github.com/laymont/gcloud
-  tech:
-    - Vue.js
-
 - title: venezuelan-foreign-exchanges
-  description: Paquete Laravel para obtener tipos de cambio del Banco Central de Venezuela
+  description: Paquete Laravel para obtener tipos de cambio del Banco Central de Venezuela (BCV).
   url: https://github.com/laymont/venezuelan-foreign-exchanges
   tech:
     - PHP
@@ -34,20 +14,28 @@
     - REST API
 
 - title: HexagonalArchitecture
-  description: Arquitectura Hexagonal para Laravel 12
+  description: Arquitectura Hexagonal para Laravel 12, patrones DDD y clean architecture.
   url: https://github.com/laymont/HexagonalArchitecture
   tech:
     - PHP
     - Laravel
 
-- title: environmentDocker
-  description: Entorno de desarrollo con Docker
-  url: https://github.com/laymont/environmentDocker
+- title: PyMSystem
+  description: Monolito Laravel 12 - Smart Business Suite local-first para operación diaria (POS, inventario, compras, CXC/CXP) con soporte multimoneda USD/VES y facturación digital.
+  url: https://github.com/laymont/pymsystem
   tech:
-    - Docker
+    - Laravel 12
+    - PHP 8.3
+    - Vue.js 3
+    - Inertia.js
+    - MySQL
 
-- title: ceq
-  description: Sistema de Control de Equipos
-  url: https://github.com/laymont/ceq
+- title: PyMControl
+  description: API REST Laravel 12 - Backend robusto para gestión empresarial con autenticación, permisos y auditoría.
+  url: https://github.com/laymont/pymcontrol
   tech:
-    - PHP
+    - Laravel 12
+    - PHP 8.3
+    - REST API
+    - JWT
+    - MySQL
