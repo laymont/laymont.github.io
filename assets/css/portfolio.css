@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap");
+
+:root {
+  --gray-1: #3f3f3f;
+  --gray-2: #32353a;
+  --gray-3: #25282c;
+  --gray-4: #151618;
+  --gray-5: #151618;
+  --gray-6: #111111;
+  --white-1: #eeeeee;
+  --white-2: #a9abb3;
+  --accent: #00d9ff;
+}
+
+* {
+  font-family: inherit;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  -webkit-user-drag: none;
+  -moz-window-dragging: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+* img {
+  max-width: 100%;
+}
+
+html,
+body {
+  color: var(--white-2);
+  background-color: var(--gray-6);
+  font-family: "JetBrains Mono", monospace;
+  line-height: 2rem;
+}
+
+header {
+  padding: 2rem 0 4rem 0;
+}
+
+header .site-title {
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 110%;
+  color: var(--white-1);
+}
+
+main {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 3rem 0;
+}
+
+#bio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#img-wrapper img {
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+#bio-wrapper {
+  margin-left: 1rem;
+}
+
+#text-wrapper {
+  line-height: 1.2rem;
+  font-weight: 300;
+}
+
+#text-wrapper a {
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
+}
+
+#social-wrapper {
+  margin-top: 1rem;
+}
+
+#social-wrapper img {
+  filter: invert() !important;
+  width: 25px;
+  height: 25px;
+  margin: 0 0 0.3rem 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#social-wrapper img:hover {
+  transform: scale(1.2);
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: var(--white-1);
+  margin: 3rem 0 1.5rem 0;
+  font-weight: 400;
+}
+
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-item {
+  background: var(--gray-3);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 3px solid var(--accent);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.experience-item .company {
+  color: var(--white-1);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.experience-item .period {
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.experience-item .role {
+  color: var(--white-2);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-item .description {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.skill-tag {
+  background: var(--gray-3);
+  color: var(--accent);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.skill-tag:hover {
+  background: var(--accent);
+  color: var(--gray-6);
+}
+
+.soft-skills .skill-tag {
+  background: transparent;
+  border: 1px solid var(--white-2);
+  color: var(--white-2);
+}
+
+.soft-skills .skill-tag:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: block;
+  background: var(--gray-3);
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: all 0.25s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+.project-title {
+  color: var(--white-1);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 0.9rem;
+  color: var(--white-2);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-tag {
+  background: var(--gray-4);
+  color: var(--white-2);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    padding: 1.5rem;
+  }
+  header .site-title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header .site-title {
+    font-size: 2.5rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #img-wrapper img {
+    max-width: 50px;
+  }
+  #bio {
+    align-items: flex-start;
+  }
+  main,
+  .projects {
+    padding: 0;
+    margin: 0;
+  }
+  .section-title {
+    font-size: 1.4rem;
+  }
+}

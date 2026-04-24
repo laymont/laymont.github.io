@@ -1,0 +1,10 @@
+- name: PHP
+- name: Laravel
+- name: Vue.js
+- name: JavaScript
+- name: TypeScript
+- name: Docker
+- name: Git
+- name: MySQL
+- name: PostgreSQL
+- name: REST API

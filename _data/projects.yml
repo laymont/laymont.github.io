@@ -1,0 +1,53 @@
+- title: PatternRepositoryLaravel
+  description: Laravel package para implementar el Patrón Repository con Eloquent, mejora la organización del código.
+  url: https://github.com/laymont/PatternRepositoryLaravel
+  tech:
+    - PHP
+    - Laravel
+
+- title: ZephyraX
+  description: Proyecto frontend moderno con Vue.js
+  url: https://github.com/laymont/ZephyraX
+  tech:
+    - Vue.js
+    - TypeScript
+
+- title: vehiclehub
+  description: Sistema de gestión vehicular
+  url: https://github.com/laymont/vehiclehub
+  tech:
+    - PHP
+    - Laravel
+
+- title: gcloud
+  description: Sistema de gestión de infraestructura en la nube
+  url: https://github.com/laymont/gcloud
+  tech:
+    - Vue.js
+
+- title: venezuelan-foreign-exchanges
+  description: Paquete Laravel para obtener tipos de cambio del Banco Central de Venezuela
+  url: https://github.com/laymont/venezuelan-foreign-exchanges
+  tech:
+    - PHP
+    - Laravel
+    - REST API
+
+- title: HexagonalArchitecture
+  description: Arquitectura Hexagonal para Laravel 12
+  url: https://github.com/laymont/HexagonalArchitecture
+  tech:
+    - PHP
+    - Laravel
+
+- title: environmentDocker
+  description: Entorno de desarrollo con Docker
+  url: https://github.com/laymont/environmentDocker
+  tech:
+    - Docker
+
+- title: ceq
+  description: Sistema de Control de Equipos
+  url: https://github.com/laymont/ceq
+  tech:
+    - PHP
