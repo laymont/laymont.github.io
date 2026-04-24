@@ -2,9 +2,10 @@
 - name: Laravel
 - name: Vue.js
 - name: JavaScript
-- name: TypeScript
 - name: Docker
 - name: Git
+- name: Kubernetes
 - name: MySQL
 - name: PostgreSQL
 - name: REST API
+- name: Linux/Ubuntu

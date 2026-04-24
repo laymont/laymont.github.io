@@ -24,18 +24,18 @@
   description: Monolito Laravel 12 - Smart Business Suite local-first para operación diaria (POS, inventario, compras, CXC/CXP) con soporte multimoneda USD/VES y facturación digital.
   url: https://github.com/laymont/pymsystem
   tech:
-    - Laravel 12
+    - Laravel 13
     - PHP 8.3
     - Vue.js 3
     - Inertia.js
-    - MySQL
+    - Postgres
 
 - title: PyMControl
   description: API REST Laravel 12 - Backend robusto para gestión empresarial con autenticación, permisos y auditoría.
   url: https://github.com/laymont/pymcontrol
   tech:
-    - Laravel 12
+    - Laravel 13
     - PHP 8.3
     - REST API
     - JWT
-    - MySQL
+    - Postgres
